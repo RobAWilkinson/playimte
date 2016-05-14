@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7912BC76898EE4790DA389D1 /* Pods_playimteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B500A162E615E9F84F4C189 /* Pods_playimteTests.framework */; };
+		80D2CACC5BA4F527CE818CC2 /* Pods_playimte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9F200BE21A06110DAC8EEE /* Pods_playimte.framework */; };
 		B6B9388E1CE7B5E300E16591 /* playimte.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B9388D1CE7B5E300E16591 /* playimte.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6B938951CE7B5E300E16591 /* playimte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B9388A1CE7B5E300E16591 /* playimte.framework */; };
 		B6B9389A1CE7B5E300E16591 /* playimteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B938991CE7B5E300E16591 /* playimteTests.swift */; };
+		B6B938A51CE7B6DE00E16591 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B938A41CE7B6DE00E16591 /* PerfectLib.framework */; };
+		B6B938A71CE7C16F00E16591 /* PefectHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B938A61CE7C16F00E16591 /* PefectHandlers.swift */; };
+		B6B938A91CE7CAB300E16591 /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B938A81CE7CAB300E16591 /* TwitterClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17195A17D61004FE92A825A2 /* Pods-playimte.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playimte.debug.xcconfig"; path = "Pods/Target Support Files/Pods-playimte/Pods-playimte.debug.xcconfig"; sourceTree = "<group>"; };
+		7B500A162E615E9F84F4C189 /* Pods_playimteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playimteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		987A568848EE73660305D1B8 /* Pods-playimteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playimteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-playimteTests/Pods-playimteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD72D658CF9C8F66FB89040C /* Pods-playimte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playimte.release.xcconfig"; path = "Pods/Target Support Files/Pods-playimte/Pods-playimte.release.xcconfig"; sourceTree = "<group>"; };
 		B6B9388A1CE7B5E300E16591 /* playimte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = playimte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B9388D1CE7B5E300E16591 /* playimte.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playimte.h; sourceTree = "<group>"; };
 		B6B9388F1CE7B5E300E16591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6B938941CE7B5E300E16591 /* playimteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playimteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B938991CE7B5E300E16591 /* playimteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playimteTests.swift; sourceTree = "<group>"; };
 		B6B9389B1CE7B5E300E16591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B938A41CE7B6DE00E16591 /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../Downloads/Perfect-1.0.0/PerfectLib/build/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
+		B6B938A61CE7C16F00E16591 /* PefectHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PefectHandlers.swift; sourceTree = "<group>"; };
+		B6B938A81CE7CAB300E16591 /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
+		CC9F200BE21A06110DAC8EEE /* Pods_playimte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playimte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD7DD8185613B79E20FD39E /* Pods-playimteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playimteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-playimteTests/Pods-playimteTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B938A51CE7B6DE00E16591 /* PerfectLib.framework in Frameworks */,
+				80D2CACC5BA4F527CE818CC2 /* Pods_playimte.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +60,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6B938951CE7B5E300E16591 /* playimte.framework in Frameworks */,
+				7912BC76898EE4790DA389D1 /* Pods_playimteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22EBFD1C82F828243295EBFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17195A17D61004FE92A825A2 /* Pods-playimte.debug.xcconfig */,
+				AD72D658CF9C8F66FB89040C /* Pods-playimte.release.xcconfig */,
+				987A568848EE73660305D1B8 /* Pods-playimteTests.debug.xcconfig */,
+				DAD7DD8185613B79E20FD39E /* Pods-playimteTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69711FF0B35C7B3D9AC08AB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC9F200BE21A06110DAC8EEE /* Pods_playimte.framework */,
+				7B500A162E615E9F84F4C189 /* Pods_playimteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6B938801CE7B5E300E16591 = {
 			isa = PBXGroup;
 			children = (
+				B6B938A41CE7B6DE00E16591 /* PerfectLib.framework */,
 				B6B9388C1CE7B5E300E16591 /* playimte */,
 				B6B938981CE7B5E300E16591 /* playimteTests */,
 				B6B9388B1CE7B5E300E16591 /* Products */,
+				22EBFD1C82F828243295EBFF /* Pods */,
+				69711FF0B35C7B3D9AC08AB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				B6B9388D1CE7B5E300E16591 /* playimte.h */,
+				B6B938A61CE7C16F00E16591 /* PefectHandlers.swift */,
+				B6B938A81CE7CAB300E16591 /* TwitterClient.swift */,
 				B6B9388F1CE7B5E300E16591 /* Info.plist */,
 			);
 			path = playimte;
@@ -104,10 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6B9389E1CE7B5E400E16591 /* Build configuration list for PBXNativeTarget "playimte" */;
 			buildPhases = (
+				296CD33280327E7228E4450B /* 📦 Check Pods Manifest.lock */,
 				B6B938851CE7B5E300E16591 /* Sources */,
 				B6B938861CE7B5E300E16591 /* Frameworks */,
 				B6B938871CE7B5E300E16591 /* Headers */,
 				B6B938881CE7B5E300E16591 /* Resources */,
+				7900E7442C1DE4BF8302A858 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6B938A11CE7B5E400E16591 /* Build configuration list for PBXNativeTarget "playimteTests" */;
 			buildPhases = (
+				356436BF593AB4F043EBC666 /* 📦 Check Pods Manifest.lock */,
 				B6B938901CE7B5E300E16591 /* Sources */,
 				B6B938911CE7B5E300E16591 /* Frameworks */,
 				B6B938921CE7B5E300E16591 /* Resources */,
+				1B78A11044D2DAE5A7532B02 /* 📦 Embed Pods Frameworks */,
+				F917BD6A7EE96AFC8BBFA8B1 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,11 +236,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B78A11044D2DAE5A7532B02 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-playimteTests/Pods-playimteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		296CD33280327E7228E4450B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		356436BF593AB4F043EBC666 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7900E7442C1DE4BF8302A858 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-playimte/Pods-playimte-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F917BD6A7EE96AFC8BBFA8B1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-playimteTests/Pods-playimteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6B938851CE7B5E300E16591 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B938A91CE7CAB300E16591 /* TwitterClient.swift in Sources */,
+				B6B938A71CE7C16F00E16591 /* PefectHandlers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,42 +433,50 @@
 		};
 		B6B9389F1CE7B5E400E16591 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17195A17D61004FE92A825A2 /* Pods-playimte.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DSTROOT = "$(CONFIGURATION_BUILD_DIR)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = playimte/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INSTALL_PATH = /PerfectLibrary;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.playimte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B6B938A01CE7B5E400E16591 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD72D658CF9C8F66FB89040C /* Pods-playimte.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DSTROOT = "$(CONFIGURATION_BUILD_DIR)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = playimte/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INSTALL_PATH = /PerfectLibrary;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.playimte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
 		B6B938A21CE7B5E400E16591 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987A568848EE73660305D1B8 /* Pods-playimteTests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = playimteTests/Info.plist;
@@ -353,6 +488,7 @@
 		};
 		B6B938A31CE7B5E400E16591 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD7DD8185613B79E20FD39E /* Pods-playimteTests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = playimteTests/Info.plist;
@@ -381,6 +517,7 @@
 				B6B938A01CE7B5E400E16591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6B938A11CE7B5E400E16591 /* Build configuration list for PBXNativeTarget "playimteTests" */ = {
 			isa = XCConfigurationList;
@@ -389,6 +526,7 @@
 				B6B938A31CE7B5E400E16591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
